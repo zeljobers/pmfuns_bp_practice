@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="232CCA57-33B4-6310-7F49-97F3D52F4686" name="Klub">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:45 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MESTO" id="EC8CDF2C-B3FB-A33F-853C-E4064C859117">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:02:45 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDK" id="1DF2EE16-092A-7A73-0BEB-A32CD69639A3">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="AC9CF4E2-3FDA-D339-EA31-C053620AAF17">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:03:02 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6677250-0DC5-2B5D-5A05-EDC4C21D9630" name="Klub PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DF2EE16-092A-7A73-0BEB-A32CD69639A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sudi" directorySegmentName="seg_0" id="B9C9F7FE-0C58-FB41-4D8D-4E088BD2FBA2">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:41:18 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<sourcePk>D878DFF0-76A6-6BF1-7B43-C801AB84FBCF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E544EFB1-2E50-8BB6-86A3-02341EB52064</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7357584-7B03-B2DD-B603-696B817A9845</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

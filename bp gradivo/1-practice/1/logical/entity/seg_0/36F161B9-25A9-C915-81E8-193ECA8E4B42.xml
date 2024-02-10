@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36F161B9-25A9-C915-81E8-193ECA8E4B42" name="Igrac">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:21 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDI" id="63602765-6C3F-F21D-D98A-581A27BDAD99">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:28 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="DFFDCB4C-F14C-2054-C770-FAC4CF6E9751">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:01:02 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREZIME" id="9B2F79F4-4149-D924-52DE-8283C2C03474">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:01:07 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATUM_RODJENJA" id="7100AEE3-69B2-5CB7-BB16-4EE08514DD7B">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:01:50 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MESTO" id="09CF7240-10D8-AB07-965A-79F78688CFDF">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:02:16 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDK" id="C8A3824D-6A29-6A34-37F3-56ADF4D61318">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:03:48 UTC</createdTime>
+<generatorID>068444B8-EC01-967F-364B-0D45522E0AF6</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<referedAttribute>1DF2EE16-092A-7A73-0BEB-A32CD69639A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E76EBFE-9222-6B03-E5B2-F382326A5DBE" name="Igrac PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:37 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63602765-6C3F-F21D-D98A-581A27BDAD99</attributeRef>
+<attributeRef>C8A3824D-6A29-6A34-37F3-56ADF4D61318</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

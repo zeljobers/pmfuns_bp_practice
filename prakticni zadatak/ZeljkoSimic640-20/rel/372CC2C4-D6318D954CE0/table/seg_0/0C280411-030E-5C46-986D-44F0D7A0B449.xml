@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C280411-030E-5C46-986D-44F0D7A0B449" name="sudi">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Utakmica_SIFRA" id="44536FD4-BE2C-BED6-8CF2-39ABA7BA43CF">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2249AA43-5705-6D8F-3328-D07FDF35DAFD" referredColumn="D3AF6227-5E24-718D-4A7E-50781A0DA537"/>
+</associations>
+</Column>
+<Column name="Sudija_IDS" id="85749D22-5B91-2B08-570B-655112E01E68">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D21E578-E9EE-7334-5B79-2B18445E5BD6" referredColumn="D38D8091-8E58-A0B0-FE12-18638059055C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="621FD17B-7C97-471E-B040-889A5EC9B916" name="zs64020_sudi_PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44536FD4-BE2C-BED6-8CF2-39ABA7BA43CF"/>
+<colUsage columnID="85749D22-5B91-2B08-570B-655112E01E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F780D1F2-1797-A3AF-885B-039C1D77386C" name="zs64020_sudi_Utakmica_FK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>B9C9F7FE-0C58-FB41-4D8D-4E088BD2FBA2</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44536FD4-BE2C-BED6-8CF2-39ABA7BA43CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98247B7A-BCDB-B8A9-03F0-70832A29C96E" name="zs64020_sudi_Sudija_FK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>B9C9F7FE-0C58-FB41-4D8D-4E088BD2FBA2</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85749D22-5B91-2B08-570B-655112E01E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

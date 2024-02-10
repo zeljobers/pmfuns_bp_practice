@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ZeljkoSimic640-20" id="BF5B3864-DAA5-A95C-F747-0944CA873997" version="3.5">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:35:07 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BF5B3864-DAA5-A95C-F747-0944CA873997</designId>
+</OSDM_Design>

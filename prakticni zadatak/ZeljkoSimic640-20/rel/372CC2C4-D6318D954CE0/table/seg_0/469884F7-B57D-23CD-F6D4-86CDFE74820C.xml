@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="469884F7-B57D-23CD-F6D4-86CDFE74820C" name="Utakmica">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>E544EFB1-2E50-8BB6-86A3-02341EB52064</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIFRA" id="D3AF6227-5E24-718D-4A7E-50781A0DA537">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>76577977-B4E6-FB55-3B6D-61DF7BE06F33</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUMIVREME" id="CA40F161-4112-4122-ADA5-E1105CA4A982">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>8138B64B-C418-8559-2C10-E4284DCAA5B3</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMACIN" id="44D14FB2-B5BD-86EF-60B6-3E8E43BB9E0F">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>A4BD4601-9297-593B-57D7-354EF829500E</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOST" id="FE8251EF-BF40-EA96-8C7E-D9F70CF3FC91">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>08CFC834-9159-AF10-05B8-7FDFAAFE834D</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_IDK" id="670E22F3-DF9C-7A0C-7F40-3C80C29B71E9">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>7AEFE911-F5A2-B6CD-74A3-8CD09E432A9C</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69F980CE-2515-5472-02E7-CE64710A51A1" referredColumn="E26923A9-6487-D03F-53E3-774AF518E551"/>
+</associations>
+</Column>
+<Column name="Klub_IDK1" id="A1C687CF-2C06-BC05-C06A-046642B91F2F">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>50F82383-F05D-0473-47E0-62FA6211255C</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F62C0E0B-6D03-B5FA-392E-CF7C818B23E2" referredColumn="E26923A9-6487-D03F-53E3-774AF518E551"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CF9F5E8-F915-C8BA-A511-DB7B8C4E13BF" name="Utakmica_PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>D878DFF0-76A6-6BF1-7B43-C801AB84FBCF</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AF6227-5E24-718D-4A7E-50781A0DA537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD81C6B-CFB6-C164-B819-D0D52DF9B8B9" name="Utakmica_Klub_FK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>F92BB542-5303-5483-1C86-5522729F60F9</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1C687CF-2C06-BC05-C06A-046642B91F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E81B070-9446-CEF6-7974-E42599AD2BEF" name="Utakmica_Klub_FKv1">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>C8187755-2C60-54B0-A262-A503620C0BF1</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670E22F3-DF9C-7A0C-7F40-3C80C29B71E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

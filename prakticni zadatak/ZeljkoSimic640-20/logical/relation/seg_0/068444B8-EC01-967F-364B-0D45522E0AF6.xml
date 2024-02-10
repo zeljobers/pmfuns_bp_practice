@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="igra" directorySegmentName="seg_0" id="068444B8-EC01-967F-364B-0D45522E0AF6">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:39:23 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<sourcePk>D6677250-0DC5-2B5D-5A05-EDC4C21D9630</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>232CCA57-33B4-6310-7F49-97F3D52F4686</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36F161B9-25A9-C915-81E8-193ECA8E4B42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

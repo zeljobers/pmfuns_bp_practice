@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A18F200D-10DE-75CB-1105-819EE5E0D1FD" name="Klub">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>232CCA57-33B4-6310-7F49-97F3D52F4686</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MESTO" id="2B577011-179B-2C69-54D2-D53EF114A25D">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>EC8CDF2C-B3FB-A33F-853C-E4064C859117</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDK" id="E26923A9-6487-D03F-53E3-774AF518E551">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>1DF2EE16-092A-7A73-0BEB-A32CD69639A3</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME" id="EA556890-A3AF-FBE0-72EE-5FEF2AF80B1A">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>AC9CF4E2-3FDA-D339-EA31-C053620AAF17</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10C4788B-1796-220F-9458-060CD9790BFA" name="Klub_PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>D6677250-0DC5-2B5D-5A05-EDC4C21D9630</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E26923A9-6487-D03F-53E3-774AF518E551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

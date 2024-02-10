@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E544EFB1-2E50-8BB6-86A3-02341EB52064" name="Utakmica">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:36:09 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIFRA" id="76577977-B4E6-FB55-3B6D-61DF7BE06F33">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:36:19 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATUMIVREME" id="8138B64B-C418-8559-2C10-E4284DCAA5B3">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:36:41 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOMACIN" id="A4BD4601-9297-593B-57D7-354EF829500E">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:37:03 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOST" id="08CFC834-9159-AF10-05B8-7FDFAAFE834D">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:37:47 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDK" id="7AEFE911-F5A2-B6CD-74A3-8CD09E432A9C">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:19:11 UTC</createdTime>
+<generatorID>C8187755-2C60-54B0-A262-A503620C0BF1</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<referedAttribute>1DF2EE16-092A-7A73-0BEB-A32CD69639A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDK1" id="50F82383-F05D-0473-47E0-62FA6211255C">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:19:40 UTC</createdTime>
+<generatorID>F92BB542-5303-5483-1C86-5522729F60F9</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<referedAttribute>1DF2EE16-092A-7A73-0BEB-A32CD69639A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D878DFF0-76A6-6BF1-7B43-C801AB84FBCF" name="Utakmica PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:36:43 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76577977-B4E6-FB55-3B6D-61DF7BE06F33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

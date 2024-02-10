@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7357584-7B03-B2DD-B603-696B817A9845" name="Sudija">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:46 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDS" id="13884010-0B8A-6D79-AFED-B5AEA49E82BB">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:52 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="6964DE79-C682-0A01-2AFD-FDE54BDF0216">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:08:33 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREZIME" id="C79E5620-E073-4FD0-4A1F-A3C583CDF09A">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:08:57 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLATA" id="DA1603DD-3856-1AF4-1989-8E5DB92442F8">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 13:06:28 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D236E4A7-93C6-082A-1AC5-2F9CF79E35BA" name="Sudija PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:57 UTC</createdTime>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<engineerTo>
+<item key="372CC2C4-759B-2831-3F09-D6318D954CE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13884010-0B8A-6D79-AFED-B5AEA49E82BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

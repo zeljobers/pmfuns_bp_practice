@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2249AA43-5705-6D8F-3328-D07FDF35DAFD" containerWithKeyObject="0C280411-030E-5C46-986D-44F0D7A0B449" localFKIndex="F780D1F2-1797-A3AF-885B-039C1D77386C" name="zs64020_sudi_Utakmica_FK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-21 12:51:44 UTC</createdTime>
+<generatorID>B9C9F7FE-0C58-FB41-4D8D-4E088BD2FBA2</generatorID>
+<ownerDesignName>ZeljkoSimic640-20</ownerDesignName>
+<referredTableLongName>Utakmica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>469884F7-B57D-23CD-F6D4-86CDFE74820C</referredTableID>
+<keyObject>9CF9F5E8-F915-C8BA-A511-DB7B8C4E13BF</keyObject>
+<referredKeyID>9CF9F5E8-F915-C8BA-A511-DB7B8C4E13BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIFRA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

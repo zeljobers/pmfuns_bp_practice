@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7357584-7B03-B2DD-B603-696B817A9845" name="Sudija">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:46 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDS" id="13884010-0B8A-6D79-AFED-B5AEA49E82BB">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="6964DE79-C682-0A01-2AFD-FDE54BDF0216">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:08:33 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREZIME" id="C79E5620-E073-4FD0-4A1F-A3C583CDF09A">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 08:08:57 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D236E4A7-93C6-082A-1AC5-2F9CF79E35BA" name="Sudija PK">
+<createdBy>zorin</createdBy>
+<createdTime>2021-06-18 07:38:57 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6BC88F4F-5B7F-8751-7360-3B242775C63C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13884010-0B8A-6D79-AFED-B5AEA49E82BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
