@@ -9,13 +9,9 @@ Modelira se baza podataka košarkaškog saveza :
     - istim klubom može igrati i više utakmica, pa se svaka utakmica mora posebno zapamtiti.
     - Sudija može da sudi više utakmica. Jednu utakmicu može da sudi više sudija.
 - Za svaku utakmicu pamti se ko je bio najvredniji košarkaš – MVP. (ko je bio, i koliko je koševa postigao)
-- Preveden kreirani konceptualni model u fizički.
-- U bazi napraviti tabele i ograničenja.
-- Popuniti tabele podacima.
-
 - Prikaz klubova koji su pobeđivali više od nekoliko puta (broj koševa DOMAĆIN je veći od broja koševa GOST).
-- Povećati platu sudiji za 10%, ako je on sudio u više od nekoliko utakmica. 
-- Izbrisati klubove iz nekog mesta (izabrati klub koji je igrao bar jednu utakmicu). 
+- Povećanje plate sudiji za 10%, ako je on sudio u više od nekoliko utakmica. 
+- Brisanje klubova iz nekog mesta (izabran klub koji je igrao bar jednu utakmicu). 
 
 ## Gradivo iz BP1 u `./bp gradivo/bp.html`:
 - generisanje tipa entiteta
